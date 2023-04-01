@@ -1,20 +1,11 @@
 import Form from './assets/Components/Form'
+import HomeContainer from './assets/Containers/HomeContainer'
 
 function App() {
 
   return (
     <div className="App">
-      <Form data={{
-        heading: "Add Form",
-        field: "Name",
-        buttonText: "Submit"
-      }} />
-      <br/>
-      <Form data={{
-        heading: "Edit Form",
-        field: "Name",
-        buttonText: "Update"
-      }} />
+     <HomeContainer />
     </div>
   )
 }
