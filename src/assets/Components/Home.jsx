@@ -13,7 +13,7 @@ const Home = () => {
             <Card data={{
                 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu6uG0D3Vf9SLKlgMjbtX2edsOrIxEDkTogTJyzDRw_YM9gbcFRJUOugIc1-zdUyR1RB4&usqp=CAU",
                 heading: "Dell Longitude",
-                text:"Emoled Screen with Dual Core Processing",
+                text:"Emoled Screen Dual Core i9",
                 price:"$2500",
             }} />
             <Card data={{
