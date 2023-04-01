@@ -2,9 +2,9 @@ import "../css/Card.css"
 
 const Card = (prop) => {
     const props = prop.data
-  return (
-    <div>
-  <div className="card">
+    return (
+        <div>
+            <div className="card">
                 <div className="card-img">
                     <img className="image" src={props.image} alt="laptop image" />
                 </div>
@@ -23,8 +23,8 @@ const Card = (prop) => {
                         </svg>
                     </div>
                 </div></div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Card
